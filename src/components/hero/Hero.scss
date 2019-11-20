@@ -5,7 +5,13 @@
 }
 
 .hero-layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
 
   position: absolute;
   transform: translate(-50%, -50%);
@@ -16,4 +22,19 @@
   height: 100%;
 
   z-index: 1;
+
+  h1 {
+    font-family: 'Calistoga', cursive;
+    font-size: 78px;
+  }
+
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+
+    span {
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
 }

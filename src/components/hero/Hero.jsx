@@ -9,7 +9,9 @@ const Hero = () => (
             <h1>Khallil Bailey</h1>
             <p>
                 “Art and love are the same thing: It’s the process of seeing yourself in things that are not you.”
-                 - Chuck Klosterman
+            </p>
+            <p>
+                <span>- Chuck Klosterman</span>
             </p>
         </div>
     </div>
