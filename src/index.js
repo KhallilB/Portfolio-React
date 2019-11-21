@@ -7,8 +7,9 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
-import App from './components/app/App.jsx';
+
 import Navbar from './components/navbar/Navbar.jsx';
+import App from './components/app/App.jsx';
 
 const routing = (
   <Router>

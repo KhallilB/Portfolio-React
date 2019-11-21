@@ -1,5 +1,5 @@
 .hero-background {
-  background: url("../../assets/images/hero.png") no-repeat;
+  background: url("../../../assets/images/hero.png") no-repeat;
   height: 100vh;
 }
 
@@ -42,6 +42,18 @@
 .hero-layer p span {
   font-weight: bold;
   font-style: italic;
+}
+
+.hero-layer i {
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.hero-layer i:hover {
+  font-size: 32px;
 }
 
 @media (max-width: 500px) {

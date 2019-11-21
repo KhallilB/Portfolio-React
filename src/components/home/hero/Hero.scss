@@ -1,5 +1,6 @@
 .hero-background {
-  background: url('../../assets/images/hero.png') no-repeat;
+  background: url('../../../assets/images/hero.png')
+    no-repeat;
 
   height: 100vh;
 }
@@ -35,6 +36,18 @@
     span {
       font-weight: bold;
       font-style: italic;
+    }
+  }
+
+  i {
+    font-size: 28px;
+    color: #fff;
+
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+      font-size: 32px;
     }
   }
 }

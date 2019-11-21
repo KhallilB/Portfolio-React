@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => (
     <div className="hero-container">
@@ -13,6 +14,8 @@ const Hero = () => (
             <p>
                 <span>- Chuck Klosterman</span>
             </p>
+
+            <AnchorLink href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></AnchorLink>
         </div>
     </div>
 )
