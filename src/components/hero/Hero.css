@@ -1,5 +1,5 @@
 .hero-background {
-  background: url("../../assets/images/hero.png");
+  background: url("../../assets/images/hero.png") no-repeat;
   height: 100vh;
 }
 
@@ -42,5 +42,21 @@
 .hero-layer p span {
   font-weight: bold;
   font-style: italic;
+}
+
+@media (max-width: 500px) {
+  .hero-layer {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-layer {
+    text-align: center;
+  }
+  .hero-layer p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 /*# sourceMappingURL=Hero.css.map */

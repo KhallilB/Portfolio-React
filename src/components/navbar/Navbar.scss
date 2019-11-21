@@ -39,7 +39,7 @@ header {
 
           &:hover {
             font-size: 30px;
-            color: #0b5563;
+            color: #beb8eb;
           }
         }
       }
@@ -70,6 +70,9 @@ header {
   font-size: 24px;
 
   cursor: pointer;
+}
+
+@media (max-width: 400px) {
 }
 
 @media (max-width: 991px) {
