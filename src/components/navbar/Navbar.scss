@@ -78,10 +78,9 @@ header {
     height: 100%;
 
     nav {
-      //   display: none;
       position: absolute;
       width: 100%;
-      top: 175px;
+      top: 185px;
       left: -100%;
 
       transition: 0.5s;
@@ -97,7 +96,6 @@ header {
 
         li {
           text-align: center;
-          height: 168px;
           width: 100%;
           border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
@@ -112,5 +110,40 @@ header {
   .menu {
     display: block;
     padding-right: 25px;
+  }
+}
+
+// Smallest Breakpoints 
+
+// iPhone+
+@media (max-width: 420px) {
+  nav {
+    ul {
+      li {
+        height: 195px;
+      }
+    }
+  }
+}
+
+// iPhone
+@media (max-width: 385px) {
+  nav {
+    ul {
+      li {
+        height: 215px;
+      }
+    }
+  }
+}
+
+// (Galaxy S8 / S9)
+@media (max-width: 365px) {
+  nav {
+    ul {
+      li {
+        height: 195px;
+      }
+    }
   }
 }
