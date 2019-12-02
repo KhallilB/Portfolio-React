@@ -14,6 +14,8 @@ class TabMenu extends React.Component {
     render() {
         return (
             <div className="tabContainer">
+                <h1>About Me</h1>
+
                 <Tabs
                     activeTab={{
                         id: "about"
