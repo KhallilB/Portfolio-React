@@ -88,6 +88,7 @@ header .profile-picture img {
   }
   header nav ul li {
     text-align: center;
+    height: 168px;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }

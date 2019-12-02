@@ -72,9 +72,6 @@ header {
   cursor: pointer;
 }
 
-@media (max-width: 400px) {
-}
-
 @media (max-width: 991px) {
   header {
     padding: 0 20px;
@@ -100,6 +97,7 @@ header {
 
         li {
           text-align: center;
+          height: 168px;
           width: 100%;
           border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
