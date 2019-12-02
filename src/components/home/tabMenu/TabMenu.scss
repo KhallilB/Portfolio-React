@@ -1,0 +1,14 @@
+@import '../../../../node_modules/react-tabs/style/react-tabs.scss';
+
+.tabContainer {
+    position: absolute;
+    padding-bottom: 150px;
+    width: 40vw;
+    height: 20vh;
+    color: #FFF;
+
+    p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 28px;
+    }
+}
