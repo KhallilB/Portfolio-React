@@ -10,14 +10,17 @@ import * as serviceWorker from './serviceWorker';
 
 import Navbar from './components/navbar/Navbar.jsx';
 import App from './components/app/App.jsx';
+import Portfolio from './components/portfolio/Portfolio';
 
 const routing = (
   <Router>
     <Navbar />
     <Switch>
-      <div>
-        <Route path='/' component={App}></Route>
-      </div>
+      <Route path='/' exact component={App}></Route>
+      <Route
+        path='/portfolio'
+        exact
+        component={Portfolio}></Route>
     </Switch>
   </Router>
 );
