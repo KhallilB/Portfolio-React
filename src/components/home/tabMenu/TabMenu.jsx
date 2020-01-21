@@ -2,6 +2,7 @@ import React from 'react';
 import './TabMenu.css';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Button from '../../utils/button/Button';
 
 class TabMenu extends React.Component {
     constructor() {
@@ -16,6 +17,9 @@ class TabMenu extends React.Component {
             <div className="tabContainer">
                 <h1>Get To Know Me</h1>
 
+                <Button link={'/portfolio'}></Button>
+
+
                 <Tabs
                     activeTab={{
                         id: "about"
@@ -29,7 +33,7 @@ class TabMenu extends React.Component {
                     </TabList>
 
                     <TabPanel>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt eget nullam non nisi est. Tristique senectus et netus et malesuada fames. Praesent tristique magna sit amet purus gravida quis. Feugiat in fermentum posuere urna nec tincidunt. Elit duis tristique sollicitudin nibh sit amet commodo.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt eget nullam non nisi est. Tristique senectus et netus et malesuada fames. Praesent tristique magna sit amet purus gravida quis. Feugiat in fermentum posuere urna nec tincidunt. Elit duis tristique sollicitudin nibh sit amet commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt eget nullam non nisi est. Tristique senectus et netus et malesuada fames. Praesent tristique magna sit amet purus gravida quis. Feugiat in fermentum posuere urna nec tincidunt. Elit duis tristique sollicitudin nibh sit amet commodo.</p>
                     </TabPanel>
                     <TabPanel>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mauris commodo quis. Molestie a iaculis at erat pellentesque adipiscing commodo elit. Enim lobortis scelerisque fermentum dui faucibus.</p>
