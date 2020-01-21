@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=Button.css.map */
+button {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+}

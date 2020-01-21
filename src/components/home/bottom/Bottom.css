@@ -1,12 +1,22 @@
 .bottom-container {
+  width: 100vw;
+}
+.bottom-container .tab-container {
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 75px;
-  padding-bottom: 300px;
+  padding-bottom: 250px;
   height: 30vh;
 }
-.bottom-container p {
+.bottom-container .tab-container p {
   text-align: left;
+}
+.bottom-container .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
