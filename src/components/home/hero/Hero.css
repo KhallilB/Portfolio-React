@@ -2,66 +2,47 @@
   background: url("../../../assets/images/hero.png") no-repeat;
   height: 100vh;
 }
-
 .hero-layer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.1);
   color: #fff;
   position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   width: 100%;
   height: 100%;
   z-index: 1;
 }
-
 .hero-layer h1 {
-  font-family: 'Calistoga', cursive;
+  font-family: "Calistoga", cursive;
   font-size: 78px;
 }
-
 .hero-layer p {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
 }
-
 .hero-layer p span {
   font-weight: bold;
   font-style: italic;
 }
-
 .hero-layer i {
   font-size: 28px;
   color: #fff;
   cursor: pointer;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .hero-layer i:hover {
   font-size: 32px;
 }
-
 @media (max-width: 500px) {
-  .hero-layer {
-    padding-top: 150px;
+  .hero-layer h1 {
+    margin-top: 120px;
   }
 }
-
 @media (max-width: 991px) {
   .hero-layer {
     text-align: center;
@@ -71,4 +52,3 @@
     padding-right: 20px;
   }
 }
-/*# sourceMappingURL=Hero.css.map */
