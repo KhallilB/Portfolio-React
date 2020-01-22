@@ -11,16 +11,19 @@ import * as serviceWorker from './serviceWorker';
 import Navbar from './components/navbar/Navbar.jsx';
 import App from './components/app/App.jsx';
 import Portfolio from './components/portfolio/Portfolio';
+import AddItems from './components/addItems/AddItems';
 
 const routing = (
   <Router>
     <Navbar />
     <Switch>
-      <Route path='/' exact component={App}></Route>
+      <Route path='/' exact component={App} />
       <Route
         path='/portfolio'
         exact
-        component={Portfolio}></Route>
+        component={Portfolio}
+      />
+      <Route path='/add' exact component={AddItems} />
     </Switch>
   </Router>
 );

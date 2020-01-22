@@ -1,4 +1,6 @@
 import React from 'react';
+import Input from '../utils/input/Input';
+import './AddItems.css';
 
 class AddItems extends React.Component {
     constructor() {
@@ -11,18 +13,25 @@ class AddItems extends React.Component {
         }
     }
 
+    handleChange = event => {
+        this.setState({
+            [event.target.name]: event.target.value
+        });
+    };
+
     render() {
         const { projectName, description, repository, url } = this.state
         return (
-            <div>
+            <div className="form_container">
                 <form>
-                    <input
-                        type="projectName"
-                        name="projectName"
-                        value={projectName}
-                    />
+                    <Input type={"text"} name={"project_name"} value={projectName} placeholder={"Project Name"} onChange={this.handleChange} />
+                    <Input type={"text"} name={"description"} value={description} placeholder={"Description"} onChange={this.handleChange} />
+                    <Input type={"url"} name={"repository"} value={repository} placeholder={"Repository"} onChange={this.handleChange} />
+                    <Input type={"url"} name={"url"} value={url} placeholder={"Live Link"} onChange={this.handleChange} />
                 </form>
             </div>
         )
     }
 }
+
+export default AddItems
