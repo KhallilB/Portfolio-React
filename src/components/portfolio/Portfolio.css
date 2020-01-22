@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=Portfolio.css.map */
+.portfolio-container {
+  height: 100vh;
+  width: 100vw;
+}
+.portfolio-container .slider-container {
+  top: 50%;
+}
