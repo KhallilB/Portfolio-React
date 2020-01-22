@@ -18,8 +18,8 @@ const Navbar = () => (
             </ul>
         </nav>
 
-        <div class="menu">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+        <div className="menu">
+            <i className="fa fa-bars" aria-hidden="true"></i>
         </div>
     </header>
 )
