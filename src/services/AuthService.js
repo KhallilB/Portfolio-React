@@ -2,9 +2,7 @@ import decode from 'jwt-decode';
 import axios from 'axios';
 
 export default class AuthService {
-  constructor(url) {
-    this.url =
-      url || 'https://khallib-portfolio.herokuapp.com/';
+  constructor() {
     this.signup = this.signup.bind(this);
     this.login = this.login.bind(this);
   }
