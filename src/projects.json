@@ -5,40 +5,40 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida dapibus molestie. Nam dignissim ex vitae justo sagittis porttitor. Vivamus at lacus tellus. Praesent ligula mi, sodales ut purus eget, fringilla sagittis sem. Nulla bibendum commodo semper. Vivamus sed mi non libero pellentesque laoreet.",
       "tags": ["Tag 1", "Tag 2", "Tag 3"],
       "project_img": "https://via.placeholder.com/150",
-      "live_link": "www.google.com",
-      "github_link": "www.github.com"
+      "live_link": "https://www.google.com",
+      "github_link": "https://www.github.com"
     },
     {
       "title": "Project 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida dapibus molestie. Nam dignissim ex vitae justo sagittis porttitor. Vivamus at lacus tellus. Praesent ligula mi, sodales ut purus eget, fringilla sagittis sem. Nulla bibendum commodo semper. Vivamus sed mi non libero pellentesque laoreet.",
       "tags": ["Tag 1", "Tag 2", "Tag 3"],
       "project_img": "https://via.placeholder.com/150",
-      "live_link": "www.google.com",
-      "github_link": "www.github.com"
+      "live_link": "https://www.google.com",
+      "github_link": "https://www.github.com"
     },
     {
       "title": "Project 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida dapibus molestie. Nam dignissim ex vitae justo sagittis porttitor. Vivamus at lacus tellus. Praesent ligula mi, sodales ut purus eget, fringilla sagittis sem. Nulla bibendum commodo semper. Vivamus sed mi non libero pellentesque laoreet.",
       "tags": ["Tag 1", "Tag 2", "Tag 3"],
       "project_img": "https://via.placeholder.com/150",
-      "live_link": "www.google.com",
-      "github_link": "www.github.com"
+      "live_link": "https://www.google.com",
+      "github_link": "https://www.github.com"
     },
     {
       "title": "Project 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida dapibus molestie. Nam dignissim ex vitae justo sagittis porttitor. Vivamus at lacus tellus. Praesent ligula mi, sodales ut purus eget, fringilla sagittis sem. Nulla bibendum commodo semper. Vivamus sed mi non libero pellentesque laoreet.",
       "tags": ["Tag 1", "Tag 2", "Tag 3"],
       "project_img": "https://via.placeholder.com/150",
-      "live_link": "www.google.com",
-      "github_link": "www.github.com"
+      "live_link": "https://www.google.com",
+      "github_link": "https://www.github.com"
     },
     {
       "title": "Project 5",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida dapibus molestie. Nam dignissim ex vitae justo sagittis porttitor. Vivamus at lacus tellus. Praesent ligula mi, sodales ut purus eget, fringilla sagittis sem. Nulla bibendum commodo semper. Vivamus sed mi non libero pellentesque laoreet.",
       "tags": ["Tag 1", "Tag 2", "Tag 3"],
       "project_img": "https://via.placeholder.com/150",
-      "live_link": "www.google.com",
-      "github_link": "www.github.com"
+      "live_link": "https://www.google.com",
+      "github_link": "https://www.github.com"
     }
   ]
 }
