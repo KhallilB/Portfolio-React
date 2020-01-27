@@ -14,8 +14,8 @@
           align-items: center;
   height: 100%;
   width: 100%;
-  padding-top: 20vh;
-  position: relative;
+  margin: 0;
+  position: absolute;
 }
 
 .portfolio_container .project_container {
@@ -29,7 +29,7 @@
 
 .portfolio_container .project_container .project_left {
   height: 100%;
-  width: 50vw;
+  width: 25vw;
 }
 
 .portfolio_container .project_container .project_left img {
@@ -38,6 +38,7 @@
 }
 
 .portfolio_container .project_container .project_right {
+  width: 70%;
   padding: 20px;
 }
 
@@ -50,9 +51,14 @@
 }
 
 .portfolio_container .project_container .project_right li .project_tags {
-  padding: 10px;
-  margin-right: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
   border: solid black 2px;
+}
+
+.portfolio_container .project_container .project_right li .project_tags p {
+  font-size: 0.8em;
 }
 
 .portfolio_container .project_container .project_right .line {

@@ -7,9 +7,9 @@
   height: 100%;
   width: 100%;
 
-  padding-top: 20vh;
+  margin: 0;
 
-  position: relative;
+  position: absolute;
 
   .project_container {
     width: 70vw;
@@ -20,7 +20,7 @@
 
     .project_left {
       height: 100%;
-      width: 50vw;
+      width: 25vw;
 
       img {
         height: 100%;
@@ -29,6 +29,7 @@
     }
 
     .project_right {
+      width: 70%;
       padding: 20px;
 
       li {
@@ -38,9 +39,14 @@
         display: flex;
 
         .project_tags {
-          padding: 10px;
-          margin-right: 5px;
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: 10px;
           border: solid black 2px;
+
+          p {
+            font-size: 0.8em;
+          }
         }
       }
 
