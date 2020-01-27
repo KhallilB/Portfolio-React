@@ -7,7 +7,6 @@ class Input extends React.Component {
         this.state = {
             type: this.props.type,
             name: this.props.name,
-            value: this.props.value,
             placeholder: this.props.placeholder,
             onChange: this.props.handleChange
         }
@@ -15,9 +14,9 @@ class Input extends React.Component {
 
 
     render() {
-        const { type, name, value, onChange, placeholder } = this.state
+        const { type, name, onChange, placeholder } = this.state
         return (
-            <input type={type} name={name} value={value} placeholder={placeholder} onChange={onChange} />
+            <input type={type} name={name} placeholder={placeholder} onChange={onChange} />
         )
     }
 }

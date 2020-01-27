@@ -12,7 +12,7 @@ class Button extends React.Component {
 
     render() {
         return (
-            <Link to={this.state.link}><button>Button</button></Link>
+            <Link to={this.state.link}><span>Button</span></Link>
         )
     }
 }

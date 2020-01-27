@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,IAAI;EAEX,aAAa,EAAE,eAAe;CACjC",
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,IAAI;EAEX,aAAa,EAAE,eAAe;CAC/B",
     "sources": [
         "Button.scss"
     ],
