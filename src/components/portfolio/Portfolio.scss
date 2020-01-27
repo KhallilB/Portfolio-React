@@ -1,8 +1,63 @@
-.portfolio-container {
-  height: 100vh;
-  width: 100vw;
+.portfolio_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .slider-container {
-    top: 50%;
+  height: 100%;
+  width: 100%;
+
+  padding-top: 20vh;
+
+  position: relative;
+
+  .project_container {
+    width: 70vw;
+    margin-bottom: 5vh;
+
+    display: flex;
+    border: solid black 2px;
+
+    .project_left {
+      height: 100%;
+      width: 50vw;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .project_right {
+      padding: 20px;
+
+      li {
+        list-style-type: none;
+        margin-bottom: 20px;
+
+        display: flex;
+
+        .project_tags {
+          padding: 10px;
+          margin-right: 5px;
+          border: solid black 2px;
+        }
+      }
+
+      .line {
+        width: 100%;
+        border: solid black 2px;
+      }
+
+      .link_button_group {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          height: 50px;
+          width: 250px;
+        }
+      }
+    }
   }
 }
