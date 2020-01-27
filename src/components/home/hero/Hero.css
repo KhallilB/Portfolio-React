@@ -18,7 +18,7 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: rgba(0, 0, 0, 0.1);
-  color: #fff;
+  color: #ffffff;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -46,7 +46,7 @@
 
 .hero-layer i {
   font-size: 28px;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;

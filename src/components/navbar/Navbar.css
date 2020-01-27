@@ -30,7 +30,7 @@ header nav ul li a {
   display: block;
   padding: 0 5vh;
   line-height: 24vh;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
@@ -58,7 +58,7 @@ header .profile-picture img {
 }
 
 .menu {
-  color: #fff;
+  color: #ffffff;
   display: none;
   float: right;
   line-height: 175px;

@@ -1,3 +1,6 @@
+@import '../../styles/utils/variables';
+@import '../../styles/utils/mixins';
+
 $animate: all 0.2s ease-in-out;
 
 header {
@@ -28,7 +31,7 @@ header {
           padding: 0 5vh;
           line-height: 24vh;
 
-          color: #fff;
+          color: $white;
           text-decoration: none;
 
           font-family: 'Roboto Condensed', sans-serif;
@@ -62,7 +65,7 @@ header {
 }
 
 .menu {
-  color: #fff;
+  color: $white;
   display: none;
   float: right;
 
@@ -85,7 +88,7 @@ header {
 
       transition: 0.5s;
 
-      background: #a2bce0;
+      background: $blue;
 
       &.active {
         left: 0;
@@ -113,7 +116,7 @@ header {
   }
 }
 
-// Smallest Breakpoints 
+// Smallest Breakpoints
 
 // iPhone+
 @media (max-width: 420px) {
