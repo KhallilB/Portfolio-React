@@ -1,8 +1,8 @@
 import React from 'react';
 import './TabMenu.css';
+import { Link } from 'react-router-dom';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Button from '../../utils/button/Button';
 
 class TabMenu extends React.Component {
     constructor() {
@@ -17,7 +17,7 @@ class TabMenu extends React.Component {
             <div className="tabContainer">
                 <h1>Get To Know Me</h1>
 
-                <Button link={'/portfolio'}></Button>
+                <Link to={'/portfolio'}><button>Button</button></Link>
 
 
                 <Tabs

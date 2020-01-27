@@ -6,6 +6,7 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
+import ScrollToTop from './components/utils/scrollToTop/ScrollToTop';
 import * as serviceWorker from './serviceWorker';
 
 import Navbar from './components/navbar/Navbar.jsx';
@@ -14,6 +15,7 @@ import Portfolio from './components/portfolio/Portfolio';
 
 const routing = (
   <Router>
+    <ScrollToTop />
     <Navbar />
     <Switch>
       <Route path='/' exact component={App} />
