@@ -19,7 +19,7 @@ class Portfolio extends React.Component {
         let { projects } = this.state;
         return (
             <div className="portfolio_container">
-                <h1>All Projects</h1>
+                <h1 className="portfolio_header">All Projects</h1>
                 <div className="protfolio_divider" />
                 {projects.map((project, index) => {
                     return (
@@ -28,7 +28,7 @@ class Portfolio extends React.Component {
                                 <img src={project.project_img} alt="#" />
                             </div>
                             <div className="project_right">
-                                <h1>{project.title}</h1>
+                                <h2>{project.title}</h2>
                                 <div className="line" id="project_divider" />
                                 <h4>{project.description}</h4>
                                 <li>
