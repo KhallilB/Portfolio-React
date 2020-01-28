@@ -39,7 +39,7 @@ class Contact extends React.Component {
             <div className="contact_container">
                 <div className="header_text">
                     <h1>Contact Me</h1>
-                    <p>Blah Blah Blah</p>
+                    <p>I'm looking forward to hearing from you.</p>
                 </div>
 
                 <div className="form_container">

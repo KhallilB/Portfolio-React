@@ -26,15 +26,12 @@
   }
 
   p {
-    @include secondary-font(
-      $size: 1.4em,
+    @include secondary-font($size: 1.4em,
       $color: $white,
-      $weight: bold
-    );
+      $weight: bold);
   }
 
-  .header_text {
-  }
+  .header_text {}
 
   form {
     width: 40vw;
@@ -46,7 +43,7 @@
 
     input,
     textarea {
-      @include secondary-font($size: 0.8em, $color: $grey);
+      @include secondary-font($size: 1.2em, $color: $grey);
       width: 100%;
       padding: 20px;
       margin-top: 5px;
@@ -61,7 +58,7 @@
     }
 
     button {
-      @include secondary-font($size: 1em, $color: $white);
+      @include secondary-font($size: 1em, $color: $white, $weight: bold);
       width: 100%;
 
       margin-top: 10px;
