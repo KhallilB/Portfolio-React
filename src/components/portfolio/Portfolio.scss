@@ -96,6 +96,12 @@
           background-color: $teal;
           border: none;
           border-radius: 5px 5px 5px 5px;
+          transition: all 0.8s;
+
+          &:hover {
+            background-color: $purple;
+            border: solid 2px $white;
+          }
         }
       }
     }

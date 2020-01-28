@@ -111,5 +111,12 @@
   background-color: #0b5563;
   border: none;
   border-radius: 5px 5px 5px 5px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.portfolio_container .project_container .project_right .link_button_group button:hover {
+  background-color: #beb8eb;
+  border: solid 2px #ffffff;
 }
 /*# sourceMappingURL=Portfolio.css.map */
