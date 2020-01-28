@@ -1,25 +1,46 @@
 .contact_container {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  top: 50%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  height: 70vh;
+  width: 60vw;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #a2bce0;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 25px 36px 0px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 25px 36px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contact_container h1 {
+  font-family: 'Calistoga', cursive;
+  font-size: 2.4em;
+  color: #ffffff;
+}
+
+.contact_container p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .contact_container form {
+  width: 40vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,5 +54,38 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.contact_container form input,
+.contact_container form textarea {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.8em;
+  color: #5e5c6c;
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  resize: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.contact_container form input:focus,
+.contact_container form textarea:focus {
+  -webkit-box-shadow: inset 0 0 0 6px #beb8eb;
+          box-shadow: inset 0 0 0 6px #beb8eb;
+}
+
+.contact_container form button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #0b5563;
 }
 /*# sourceMappingURL=Contact.css.map */

@@ -10,7 +10,8 @@ class Contact extends React.Component {
             firstName: '',
             lastName: '',
             email: '',
-            message: ''
+            message: '',
+            errors: ''
         }
         this.Email = new EmailService();
     }
@@ -36,15 +37,18 @@ class Contact extends React.Component {
 
         return (
             <div className="contact_container">
-                <h1>Contact Me</h1>
-                <p>Blah Blah Blah</p>
+                <div className="header_text">
+                    <h1>Contact Me</h1>
+                    <p>Blah Blah Blah</p>
+                </div>
+
                 <div className="form_container">
                     <form onSubmit={this.submitForm}>
                         <input className="contact_input" type="text" name="firstName" placeholder="First Name" value={firstName} onChange={this.handleChange} />
                         <input className="contact_input" type="text" name="lastName" placeholder="Last Name" value={lastName} onChange={this.handleChange} />
                         <input className="contact_input" type="email" name="email" placeholder="Email" value={email} onChange={this.handleChange} />
                         <textarea className="contact_text_area" type="text" name="message" placeholder="Message" value={message} onChange={this.handleChange} />
-                        <button type="submit" value="submit">Button</button>
+                        <button type="submit" value="submit">Submit</button>
                     </form>
                 </div>
             </div>
