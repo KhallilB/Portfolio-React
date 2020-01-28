@@ -12,6 +12,7 @@ import * as serviceWorker from './serviceWorker';
 import Navbar from './components/navbar/Navbar.jsx';
 import App from './components/app/App.jsx';
 import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact';
 
 const routing = (
   <Router>
@@ -24,6 +25,7 @@ const routing = (
         exact
         component={Portfolio}
       />
+      <Route path='/contact' exact component={Contact} />
     </Switch>
   </Router>
 );
